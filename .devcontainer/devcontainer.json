@@ -1,0 +1,8 @@
+{
+	"name": "assemblyscript-wasm-node",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"containerEnv": {
+		"TZ": "Asia/Tokyo"
+	},
+	"postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh"
+}
